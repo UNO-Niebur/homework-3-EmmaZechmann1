@@ -73,3 +73,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# Design document
+# This game will be designed as a game bord similar to candy land. The board will include a forest, dungeon and a bridge. 
+# The bridge will be an action that if you land on one side on the specific space you can use it to cut across the board.
+# The path will be winding and will be roughly 100 spaces long. As seen above the player will go through mountiains and forests,
+# some of which will have "trolls" that will keep the player their for a certain amount of turns. The game will be played by two or more players,
+# where each player will roll a dice to decide how far they will go fowrward. Who ever gets to the last tile first wins.
+# The data is stored in this program sort of like a dictionary, you collect data, store it then when the player moves the data changes, 
+# and the old data is deleted. The main function I am using is the random function. this allows me to make a dice roll. 
